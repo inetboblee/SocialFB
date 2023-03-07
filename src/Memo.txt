@@ -1,0 +1,11 @@
+    {posts.map(post => {
+        return <Post post={post} key={post.id}  />
+    })}
+    posts.map 是經過查詢產生的資料集，每一筆資料對應為post參數
+    ，傳到<post>經過處理後，return回來
+    在程式裡的關係是 <APP> --> <posts> --> <post>
+
+    
+
+
+    
